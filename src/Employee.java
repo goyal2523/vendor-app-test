@@ -2,6 +2,12 @@
 public class Employee {
 
 	
+	@Override
+	public String toString() {
+		return "Employee [empId=" + empId + ", empName=" + empName + "]";
+	}
+
+
 	private int empId;
 	private String empName;
 	
